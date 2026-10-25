@@ -1,0 +1,24 @@
+[package]
+name = "red-pm"
+version = "0.2.0"
+edition = "2021"
+description = "RED package format and package manager"
+license = "MIT"
+
+[[bin]]
+name = "red"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+hex = "0.4"
+tar = "0.4"
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+lzma-rs = "0.3"
+ruzstd = "0.8"
+tempfile = "3"
+walkdir = "2"
+libc = "0.2"

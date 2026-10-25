@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-red">
+    <comment>RED package</comment>
+    <comment xml:lang="zh_CN">RED 软件包</comment>
+    <glob pattern="*.red"/>
+  </mime-type>
+  <mime-type type="application/x-ared">
+    <comment>RED package bundle</comment>
+    <comment xml:lang="zh_CN">RED 合集包</comment>
+    <glob pattern="*.ared"/>
+  </mime-type>
+</mime-info>

@@ -1,0 +1,6 @@
+/target
+*.red
+*.ared
+*.pkg.tar.gz
+*.pkg.tar.xz
+*.pkg.tar.zst

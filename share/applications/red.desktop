@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=RED
+Comment=RED package manager
+Exec=red -gui %f
+Icon=red
+Terminal=false
+Categories=System;PackageManager;
+MimeType=application/x-red;application/x-ared;
+StartupNotify=false
